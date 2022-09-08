@@ -1,3 +1,1 @@
-stack:
-  sass
-  jQuery
+styled by sass only
