@@ -1,0 +1,3 @@
+stack:
+  sass
+  jQuery
