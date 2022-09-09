@@ -1,3 +1,17 @@
 body {
   background-color: #efefef;
+  font-family: Montserrat medium;
+}
+
+.logo {
+  width: 50%;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: #272727 !important;
+}
+
+.burger {
+  width: 2.5%;
 }/*# sourceMappingURL=style.css.map */
