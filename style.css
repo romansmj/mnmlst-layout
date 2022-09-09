@@ -3,11 +3,20 @@ body {
   font-family: Montserrat medium;
 }
 
+nav {
+  margin: 1.5%;
+}
+
 .logo {
   width: 50%;
 }
 
+.navbar-nav {
+  margin-left: 10%;
+}
+
 .nav-link {
+  font-size: 150%;
   text-transform: uppercase;
   color: #272727 !important;
 }
