@@ -1,1 +1,1 @@
-styled by sass & bootstrap 5
+styled with sass & bootstrap 5
