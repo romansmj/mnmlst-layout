@@ -23,4 +23,19 @@ nav {
 
 .burger {
   width: 2.5%;
+}
+
+.read-more {
+  font-weight: bold;
+  text-decoration: none;
+  color: #222222;
+}
+.read-more:hover {
+  color: #222222;
+}
+
+.circle {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
