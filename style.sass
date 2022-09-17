@@ -2,7 +2,12 @@ $body-color: #efefef
 $navbar-text-color: #272727
 $main-text-color: #222222
 $main-font: Montserrat medium
+@mixin centering()
+    display: block
+    margin: 0 auto
 
+html
+    overflow: hidden
 body
     background-color: $body-color
     font-family: $main-font
@@ -18,13 +23,26 @@ nav
     color: $navbar-text-color !important
 .burger
     width: 2.5%
-.read-more
+    cursor: pointer
+.text
+    top: 100px
+.button
     font-weight: bold
     text-decoration: none
     color: $main-text-color
     &:hover
         color: $main-text-color
 .circle
-    width: 50%
-    display: block
-    margin: 0 auto
+    @include centering
+    width: 550px
+    bottom: 100px
+.man
+    @include centering
+    width: 250px
+    bottom: 600px
+.title
+    font-size: 100px
+    font-weight: bold
+    bottom: 950px
+    left: 770px
+    line-height: 80px

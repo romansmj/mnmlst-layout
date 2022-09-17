@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 body {
   background-color: #efefef;
   font-family: Montserrat medium;
@@ -23,19 +27,40 @@ nav {
 
 .burger {
   width: 2.5%;
+  cursor: pointer;
 }
 
-.read-more {
+.text {
+  top: 100px;
+}
+
+.button {
   font-weight: bold;
   text-decoration: none;
   color: #222222;
 }
-.read-more:hover {
+.button:hover {
   color: #222222;
 }
 
 .circle {
-  width: 50%;
   display: block;
   margin: 0 auto;
+  width: 550px;
+  bottom: 100px;
+}
+
+.man {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  bottom: 600px;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  bottom: 950px;
+  left: 770px;
+  line-height: 80px;
 }/*# sourceMappingURL=style.css.map */
